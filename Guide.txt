@@ -1,0 +1,29 @@
+####An example:#####
+connect localhost 6789
+credential user
+join
+post subject sometexthere
+
+
+#####ALL COMMANDS:#####
+
+CONNECT address port
+CREDENTIAL username
+
+--------For public group------
+JOIN
+POST messageSubject messageBody
+USERS
+LEAVE
+MESSAGE messageID 
+EXIT
+
+---------For private groups------
+GROUPS
+GROUPJOIN groupID
+GROUPPOST groupID messageSubject messageBody
+GROUPUSERS groupID
+GROUPLEAVE groupID
+GROUPMESSAGE groupID messageID
+
+
